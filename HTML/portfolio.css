@@ -1,0 +1,45 @@
+/*Change the body background from white to a light color.
+Center all text in the header.
+Change the color of all headings.
+Remove the underline from the LinkedIn link.
+Change the LinkedIn link color.
+Change the footer text color.
+Increase spacing between lines using line-height.
+Use a different font family for the whole page.
+Underline only the main heading.
+Make the achievement text a different color.*/
+body{
+    background-color: #f4f6f9;
+    color: #333333;
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+h1{
+    color: #1e3a5f;
+    text-decoration: double underline;
+}
+
+h3,h4{
+    color: #1e3a5f;
+}
+
+a{
+    text-decoration: none;
+    color: #2563eb;
+}
+
+footer{
+    background-color: #1e3a5f;
+    color: white;
+}
+
+#achievement{
+    background-color: #d4af37;
+    color: white;
+}
